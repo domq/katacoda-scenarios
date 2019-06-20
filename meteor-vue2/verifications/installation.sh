@@ -1,6 +1,8 @@
 #!/bin/sh
 
-set -e
+set -e -x
+exec 2>> /tmp/check.log
+
 which node
 which meteor
-rm -rf /home/scrapbook/tutorial /home/scrapbook/.meteor
+echo done
