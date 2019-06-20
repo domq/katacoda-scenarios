@@ -20,9 +20,13 @@
         "verify": "scripts/verification/utilisateur-scrapbook.sh"
       },
       {
-        "code": "scripts/prep/rm-stuff.sh",
+        "code": "scripts/prep/en-tant-que-scrapbook.sh",
         "title": "Ma première application Meteor",
         "text": "03-meteor-create.md"
+      },
+      {
+        "title": "Visite guidée d'une application Meteor",
+        "text": "04-visite-guidee.md"
       }
     ],
     "finish": {
@@ -30,7 +34,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "bash"
