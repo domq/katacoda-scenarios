@@ -20,6 +20,7 @@
         "verify": "scripts/verification/utilisateur-scrapbook.sh"
       },
       {
+        "code": "scripts/prep/rm-stuff.sh",
         "title": "Ma première application Meteor",
         "text": "03-meteor-create.md"
       }
