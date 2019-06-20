@@ -12,12 +12,12 @@
       {
         "title": "Première étape - Installation de node.js et Meteor",
         "text": "01-installation-meteor.md",
-        "verify": "verifications/installation.sh"
+        "verify": "scripts/verification/installation.sh"
       },
       {
         "title": "On ne travaille pas comme root",
         "text": "02-utilisateur-scrapbook.md",
-        "verify": "verifications/utilisateur-scrapbook.sh"
+        "verify": "scripts/verification/utilisateur-scrapbook.sh"
       },
       {
         "title": "Ma première application Meteor",
