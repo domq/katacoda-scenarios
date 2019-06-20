@@ -9,8 +9,8 @@
       "credits": ""
     },
     "steps": [{
-      "title": "Step 1 - Run Command",
-      "text": "step1.md"
+      "title": "Première étape - Installation de node.js et Meteor",
+      "text": "01-installation-meteor.md"
     }],
     "finish": {
       "text": "finish.md"
