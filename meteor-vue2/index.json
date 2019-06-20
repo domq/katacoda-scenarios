@@ -11,6 +11,7 @@
     "steps": [
       {
         "title": "Première étape - Installation de node.js et Meteor",
+        "code": "scripts/prep/rm-rf-docker.sh",
         "text": "01-installation-meteor.md",
         "verify": "scripts/verification/installation.sh"
       },
