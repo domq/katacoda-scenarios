@@ -10,7 +10,8 @@
     },
     "steps": [{
       "title": "Première étape - Installation de node.js et Meteor",
-      "text": "01-installation-meteor.md"
+      "text": "01-installation-meteor.md",
+      "verify": "verifications/installation.sh"
     }],
     "finish": {
       "text": "finish.md"
