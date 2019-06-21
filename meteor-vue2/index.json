@@ -28,6 +28,15 @@
       {
         "title": "Visite guidée d'une application Meteor",
         "text": "04-visite-guidee.md"
+      },
+      {
+        "title": "Meteor : une plate-forme full-stack",
+        "text": "05-full-stack.md"
+      },
+      {
+        "title": "En avant pour Vue.js",
+        "text": "06-vue.md",
+        "verify": "scripts/verification/plus-de-blaze.sh"
       }
     ],
     "finish": {
