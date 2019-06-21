@@ -18,6 +18,10 @@
       {
         "title": "Ajouter Vue.js à votre projet",
         "text": "02-installe-vue.md"
+      },
+      {
+        "title": "Retirer Blaze de votre projet",
+        "text": "03-elimine-blaze.md"
       }
     ]
   },
