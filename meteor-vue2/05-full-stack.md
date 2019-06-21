@@ -22,7 +22,7 @@ Les *polyfills*, le support du débogueur avec les *source maps*, sont autant de
 <img src="https://notyour9to5.files.wordpress.com/2013/05/fork-in-train-track.jpg" height=300 width=400>
 
 - Si vous souhaitez vous former à React, il est maintenant temps de prendre le [tutoriel idoine](https://www.meteor.com/tutorials/react/components#workingwithreact) en cours de route;
-- Sinon, cliquez sur le bouton *Continue* pour continuer le présent katacoda.
+- Sinon, cliquez sur le bouton *Continue* pour continuer le présent katacoda avec Vue.js.
 
 Dans les deux cas :
 - Vous pouvez bien entendu continuer à utiliser katacoda;
