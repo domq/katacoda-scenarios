@@ -14,6 +14,11 @@
         "code": "scripts/prep/install-meteor.sh",
         "text": "01-installation-meteor.md",
         "verify": "scripts/verification/installation.sh"
+      },
+      {
+        "title": "Création du projet Meteor",
+        "code": "scripts/prep/rm-rf-tutorial.sh",
+        "text": "02-meteor-create.md"
       }
     ]
   },
