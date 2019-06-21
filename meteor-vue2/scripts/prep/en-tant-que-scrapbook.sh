@@ -1,4 +1,3 @@
 #!/bin/sh
 
-chown -R scrapbook /home/scrapbook/.meteor || true
-chown -R scrapbook /home/scrapbook/.config || true
+(set +e +x; chown -R scrapbook /home/scrapbook/.meteor /home/scrapbook/.config 2>/dev/null)
