@@ -16,14 +16,3 @@ soit pas possible dans un «vrai» navigateur.
 # Et plus encore !
 
 Les *polyfills*, le support du débogueur avec les *source maps*, sont autant de fonctionnalités qui ne sont pas couvertes par ce katacoda mais que vous pourrez explorer plus tard.
-
-# La suite : React ou Vue.js ?
-
-<img src="https://notyour9to5.files.wordpress.com/2013/05/fork-in-train-track.jpg" height=300 width=400>
-
-- Si vous souhaitez vous former à React, il est maintenant temps de prendre le [tutoriel idoine](https://www.meteor.com/tutorials/react/components#workingwithreact) en cours de route;
-- Sinon, cliquez sur le bouton *Continue* pour continuer le présent katacoda avec Vue.js.
-
-Dans les deux cas :
-- Vous pouvez bien entendu continuer à utiliser katacoda;
-- Ou bien vous pouvez recommencer sur votre propre station de travail ou serveur, auquel cas il vous faudra d'abord [installer Meteor](https://www.meteor.com/install)

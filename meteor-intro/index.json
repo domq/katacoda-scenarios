@@ -1,0 +1,49 @@
+{
+  "title": "Introduction à Meteor",
+  "description": "Prise en mains générale de Meteor",
+  "difficulty": "débutant",
+  "time": "15 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "steps": [
+      {
+        "title": "Première étape - Installation de Meteor",
+        "code": "scripts/prep/rm-rf-docker.sh",
+        "text": "01-installation-meteor.md",
+        "verify": "scripts/verification/installation.sh"
+      },
+      {
+        "title": "On ne travaille pas comme root",
+        "text": "02-utilisateur-scrapbook.md",
+        "verify": "scripts/verification/utilisateur-scrapbook.sh"
+      },
+      {
+        "code": "scripts/prep/en-tant-que-scrapbook.sh",
+        "title": "Ma première application Meteor",
+        "text": "03-meteor-create.md"
+      },
+      {
+        "title": "Visite guidée d'une application Meteor",
+        "text": "04-visite-guidee.md"
+      },
+      {
+        "title": "Meteor : une plate-forme full-stack",
+        "text": "05-full-stack.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "showdashboard": true,
+    "dashboards": [{"name": "Meteor (étape 3+)", "port": 3000}]
+  },
+  "backend": {
+    "imageid": "bash"
+  }
+}

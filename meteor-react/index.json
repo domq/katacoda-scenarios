@@ -1,6 +1,6 @@
 {
-  "title": "Meteor + Vue2",
-  "description": "Prise en mains de Meteor avec Vue.js version 2 pour le rendu HTML",
+  "title": "Meteor + React",
+  "description": "Prise en mains de Meteor avec React pour le rendu HTML",
   "difficulty": "débutant",
   "time": "20 minutes",
   "details": {
@@ -10,14 +10,10 @@
     },
     "steps": [
       {
-        "title": "Installation de Meteor et initialisation du projet",
+        "title": "Installation de Meteor",
         "code": "scripts/prep/install-meteor.sh",
         "text": "01-installation-meteor.md",
         "verify": "scripts/verification/installation.sh"
-      },
-      {
-        "title": "Ajouter Vue.js à votre projet",
-        "text": "02-installe-vue.md"
       }
     ]
   },
