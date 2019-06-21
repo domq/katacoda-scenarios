@@ -1,6 +1,5 @@
-1. Installer node.js:
-   - `curl https://deb.nodesource.com/setup_10.x | sh -x`{{execute}}
-   - `apt -q -y install nodejs`{{execute}}
-1. Installer Meteor:
-   - `curl https://install.meteor.com/ | env HOME=/root sh -x`{{execute}}<br/>💡 La partie `env HOME=/root` est spécifique à Katacoda; vous ne devriez pas en avoir besoin sur votre station de travail.
+`curl https://install.meteor.com/ | env HOME=/root sh -x`{{execute}}
+
+💡 La partie `env HOME=/root` est spécifique à Katacoda; vous ne devriez pas en avoir besoin sur votre station de travail.
+💡 Cette opération installe une copie de node.js qui est privée pour Meteor. Essayez<br/>`find /root/.meteor -name node -type f`{{execute}}
 
