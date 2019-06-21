@@ -6,7 +6,7 @@
 | `client/main.html`{{open}}<br/>`client/main.css`{{open}}<br/>`client/main.js`{{open}} | L'interface graphique de l'application |
 | `server/` | Le code qui s'exécute côté serveur |
 | `client/main.html`{{open}}<br/>`server/main.js`{{open}} | Pas grand'chose d'intéressant, mais essayez de remplacer la ligne 4 par<br>`console.log("hello")` 
-| `node_modules/`<br/>`package.json`<br/>`package-lock.json` | Meteor est pleinement intégré à [npm](https://www.npmjs.com/); les paquetages npm sont utilisables côté serveur ou côté client. |
+| `node_modules/`<br/>`package.json`{{open}}<br/>`package-lock.json` | Meteor est pleinement intégré à [npm](https://www.npmjs.com/); les paquetages npm sont utilisables côté serveur ou côté client. |
 | `.meteor/` | Les fichiers de configuration et l'état propres à Meteor |
 | `.meteor/packages`{{open}}<br/>`.meteor/versions` | Les dépendances de l'application sur [Atmosphere.js](https://atmospherejs.com/)<br/>💡 Ces fichiers sont les équivalents respectifs de `package.json` et `package-lock.json` pour le système [isobuild] |
 
