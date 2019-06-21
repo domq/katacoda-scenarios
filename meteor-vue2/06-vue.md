@@ -11,7 +11,6 @@ Meteor.startup(() =&gt; {
   }).$mount('h1');
 });
 </pre>À ce stade, votre serveur Meteor indique un warning (il vous faudra peut-être l'arrêter et le relancer pour voir ce warning, en raison des limitations / bugs de Katacoda). **Pas de panique !** Si vous scrollez vers le haut, vous pourrez voir un message à propos de `Unable to resolve some modules`, et la ligne de commande qui réparera le problème pour vous :<br/>`meteor npm install --save vue`{{execute}}<br/>💡 L'étape 1 a installé automatiquement le paquetage `akryum:vue-component` de Atmosphere.js; mais le paquetage `vue` de npm, dont il dépend, ne bénéficie pas du même automatisme.<br/>💡 `npm install --save vue` [fonctionnerait tout aussi bien](https://guide.meteor.com/using-npm-packages.html) dans la mesure où `npm` est installé indépendamment de Meteor (ce qui n'est pas le cas dans le présent katacoda)
-1. Une fois cette erreur réparée, [l'application Web](https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/) se recharge, mais se plante à son tour... (Ouvrez le )
 1. Créez un fichier `imports/ui/App.vue`{{open}} qui contient <pre class="file" data-filename="imports/ui/App.vue" data-target="replace">
 &lt;template&gt;
 &lt;div class="app"&gt;
@@ -48,6 +47,7 @@ body {
 }
 &lt;/style&gt;
 </pre>
+1. Une fois tous les fichiers dûment créés, il se pourrait bien que [l'application Web](https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/) se recharge, mais se plante à son tour... (Ouvrez le débogueur du navigateur avec ⌥+⌘+I / Ctrl+Shift+I, puis «Console» pour investiguer.) Pas de panique de nouveau, il sufit de recharger la page.
 
 **⚠ À ce stade, vous devez voir deux boutons dans votre application
 Web.** Vérifiez que c'est le cas avant de passer à la suite du kata.
