@@ -35,8 +35,7 @@
       },
       {
         "title": "En avant pour Vue.js",
-        "text": "06-vue.md",
-        "verify": "scripts/verification/plus-de-blaze.sh"
+        "text": "06-vue.md"
       }
     ],
     "finish": {
