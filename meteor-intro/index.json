@@ -2,7 +2,7 @@
   "title": "Introduction à Meteor",
   "description": "Prise en mains générale de Meteor",
   "difficulty": "débutant",
-  "time": "15 minutes",
+  "time": "25 minutes",
   "details": {
     "intro": {
       "text": "intro.md",
@@ -32,6 +32,14 @@
       {
         "title": "Meteor : une plate-forme full-stack",
         "text": "05-full-stack.md"
+      },
+      {
+        "title": "DDP (Distributed Data Protocol)",
+        "text": "06-ddp-generalites.md"
+      },
+      {
+        "title": "Collections et MongoDB",
+        "text": "07-ddp-pratique.md"
       }
     ],
     "finish": {
