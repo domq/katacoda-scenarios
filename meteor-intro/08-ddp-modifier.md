@@ -9,25 +9,28 @@ graphique avec boutons HTML et événements JavaScript.
 1. Ouvrez le débogueur dans Chrome, et sélectionnez l'onglet
    «console» — ou bien appuyez sur <kbd>Esc</kbd> pour faire
    apparaître le «tiroir console» en-dessous de l'onglet courant du débogueur
-1. Tapez dans la console <pre class="file" data-target="clipboard">Choses.insert({b: 1})
+1. Tapez dans la console du débogueur de Chrome <pre class="file" data-target="clipboard">Choses.insert({b: 1})
 </pre><pre class="file" data-target="clipboard">Choses.remove({})
 </pre>
 
 # Et la sécurité dans tout ça ?
 
 Si vous avez bien suivi le kata, vous aurez remarqué que
-<pre>Choses.remove({})</pre> est rejeté pour des questions de
+`Choses.remove({})` est rejeté pour des questions de
 sécurité... mais que tout le reste «passe» sans problème.
 
+
 **La raison est que les paquetages `autopublish` et `insecure` sont installés.**
+
 - `autopublish` fait que tous les documents de toutes les collections
   connues du serveur Meteor sont automatiquement synchronisées par
   DDP. Dans une véritable application, il faudrait user de
   [`Meteor.publish()`](https://docs.meteor.com/api/pubsub.html) pour
   choisir ce que chaque utilisateur voit — Typiquement en fonction de
-  qui il est, cf. [`Meteor.user`](https://docs.meteor.com/api/accounts.html#Meteor-user)
-- de même, `insecure` fait fonctionner `Choses.insert()` et ses potes
-  sans poser de questions. Dans une véritable application, il faut
+  qui il est (cf. [`Meteor.user`](https://docs.meteor.com/api/accounts.html#Meteor-user)),
+  mais aussi de quelle page ou partie de l'application Web est présentement visible
+- de même, `insecure` fait fonctionner `Choses.insert()` et compagnie
+  sans (trop) poser de questions. Dans une véritable application, il faut
   également [exercer du contrôle sur les
   écritures](https://www.meteor.com/tutorials/blaze/security-with-methods).
 

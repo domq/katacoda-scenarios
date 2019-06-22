@@ -1,8 +1,8 @@
 # Félicitations !
 
 Dans ce kata, vous avez appris à installer Meteor et créer une
-application simpliste avec le *framework* de mise en page fourni avec
-Meteor.
+application simpliste avec le *framework* Blaze / Spacebars fourni
+avec Meteor.
 
 Vous savez à présent
 - installer Meteor sur un système UNIX (ou Mac)
@@ -18,19 +18,21 @@ Vous savez à présent
 <img src="https://notyour9to5.files.wordpress.com/2013/05/fork-in-train-track.jpg" height=300 width=400>
 
 Le prochain «gros morceau» de votre apprentissage consiste à maîtriser
-en profondeur l'un des multiples *frameworks* proposés par Meteor pour
-intégrer les données DDP avec ce qui est visible à l'écran (le DOM),
-et ce dans les deux sens.
+en profondeur l'un des *frameworks* que propose Meteor pour intégrer
+les données DDP avec ce qui est visible à l'écran (le DOM, les
+boutons, etc.); et ce dans les deux sens — lecture / écriture, ou pour
+employer une terminologie plus à la mode, [command /
+query](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation)
 
 Le système Blaze / Spacebars, autrefois natif à Meteor, étant
 aujourd'hui [en perte de
 vitesse](http://www.discovermeteor.com/blog/blaze-react-meteor/), nous
-vous proposons deux *frameworks* modernes qui remplissent ce rôle et
-bénéficient d'une excellente intégration avec le système de données
-réactives de Meteor : [React](https://reactjs.org), très (voire trop
-?) complet et proposé par Facebook; ou bien [Vue
-2](https://vuejs.org), plus léger et soutenu par une communauté de
-développeurs. Tous deux sont des logiciels libres.
+vous proposons deux *frameworks* modernes qui sont nés hors de la
+sphère de Meteor, mais bénéficient aujourd'hui d'une excellente
+intégration avec lui : [React](https://reactjs.org), très riche et
+proposé par Facebook; ou bien [Vue 2](https://vuejs.org), plus léger
+et soutenu par une communauté de développeurs indépendants. Tous deux
+sont des logiciels libres.
 
-- [Katacoda suivant avec React](https://katacoda.com/domq/scenarios/meteor-react)
-- [Katacoda suivant avec Vue 2](https://katacoda.com/domq/scenarios/meteor-vue2)
+- [prochain Katacoda : Meteor avec React](https://katacoda.com/domq/scenarios/meteor-react)
+- [prochain Katacoda : Meteor avec Vue 2](https://katacoda.com/domq/scenarios/meteor-vue2)

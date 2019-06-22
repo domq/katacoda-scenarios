@@ -9,27 +9,26 @@ code suivant : <pre class="file" data-filename="server/main.js"
 data-target="prepend">
 import { Choses } from '/imports/api/choses';
 </pre>💡 Le répertoire `imports/` n'est chargé automatiquement ni sur
-le client, ni sur le serveur; il est donc nécessaire de l'importer
-explicitement (comme on le fait ici). Nous appliquons ici
+le client, ni sur le serveur; c'est pourquoi il est donc nécessaire
+d'importer explicitement '/imports/api/choses'. Nous appliquons ici
 l'organisation des fichiers
 [recommandée](https://guide.meteor.com/structure.html#es2015-modules)
 par Meteor.
 
-Après avoir redémarré pour prendre en compte ces changements (ce qui
-se fait automatiquement, comme précédemment), votre serveur Meteor
-écoute à présent les mutations de la collection `chosees` dans MongoDB
-et les fait suivre au client via DDP. Vous pouvez observer ce processus à
-l'aide de la commande `meteor mongo` :
+Votre serveur Meteor, après avoir redémarré (automatiquement) pour
+prendre en compte ces changements, écoute à présent les mutations de
+la collection `chosees` dans MongoDB et les fait suivre au client via
+DDP. Vous pouvez observer ce processus à l'aide de la commande `meteor
+mongo` :
 
-<br/>💡 Pour mémoire, l'onglet «Meteor (étape 3+)» vous permet d'accéder à l'application Web; au besoin, copiez-collez son URL vers Chrome.
-1. Assurez-vous que le débogueur est ouvert dans Chrome et que l'onglet Meteor est actif (voir l'étape précédente du kata)
+1. Assurez-vous que le débogueur est ouvert dans Chrome et que l'onglet Meteor est actif (voir l'étape précédente du kata)<br/>💡 Pour mémoire, l'onglet «Meteor (étape 3+)» vous permet d'accéder à l'application Web; au besoin, copiez-collez son URL vers Chrome.
 1. Basculez vers le terminal libre (ou ouvrez-en un nouveau) et tapez `su -l scrapbook`{{execute}}<br/>
    `cd ~/tutorial`{{execute}}<br/>
    `meteor mongo`{{execute}}<br/>
 1. À l'invite du client MongoDB, vous pouvez insérer un élément dans la collection `choses` comme suit :<br/>
    `db.choses.insert({a: 1})`{{execute}}
 1. Dans le débogueur de Chrome, observez l'arrivée d'un message DDP pour annoncer au navigateur la création du nouvel objet.
-1. Vous pouvez vice versa observer le message DDP de suppression si vous détruisez la collection :
+1. Vous pouvez vice versa observer un message DDP de suppression si vous détruisez la collection :
    `db.choses.drop()`{{execute}}
    
 # Afficher les données dans l'application Web (sans débogueur !)
