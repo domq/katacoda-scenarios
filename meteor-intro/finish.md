@@ -11,11 +11,26 @@ Vous savez à présent
 - manier le débogueur de Chrome et son extension Meteor DevTools
 - créer des objets au sein d'une collection dans MongoDB, et «câbler» Meteor pour qu'il propage ces données aux clients via DDP
 - créer les rudiments d'une application Web à l'aide d'un *template* Blaze
-
+- décrire dans les grandes lignes la démarche qui vous permet de sécuriser votre application, même *a posteriori*
 
 # La suite : React ou Vue.js ?
 
 <img src="https://notyour9to5.files.wordpress.com/2013/05/fork-in-train-track.jpg" height=300 width=400>
 
-- [Continuer avec React](https://katacoda.com/domq/scenarios/meteor-react)
-- [Continuer avec Vue 2](https://katacoda.com/domq/scenarios/meteor-vue2)
+Le prochain «gros morceau» de votre apprentissage consiste à maîtriser
+en profondeur l'un des multiples *frameworks* proposés par Meteor pour
+intégrer les données DDP avec ce qui est visible à l'écran (le DOM),
+et ce dans les deux sens.
+
+Le système Blaze / Spacebars, autrefois natif à Meteor, étant
+aujourd'hui [en perte de
+vitesse](http://www.discovermeteor.com/blog/blaze-react-meteor/), nous
+vous proposons deux *frameworks* modernes qui remplissent ce rôle et
+bénéficient d'une excellente intégration avec le système de données
+réactives de Meteor : [React](https://reactjs.org), très (voire trop
+?) complet et proposé par Facebook; ou bien [Vue
+2](https://vuejs.org), plus léger et soutenu par une communauté de
+développeurs. Tous deux sont des logiciels libres.
+
+- [Katacoda suivant avec React](https://katacoda.com/domq/scenarios/meteor-react)
+- [Katacoda suivant avec Vue 2](https://katacoda.com/domq/scenarios/meteor-vue2)
