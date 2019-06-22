@@ -40,6 +40,10 @@
       {
         "title": "Collections et MongoDB",
         "text": "07-ddp-pratique.md"
+      },
+      {
+        "title": "Modifier les données",
+        "text": "08-ddp-modifier.md"
       }
     ],
     "finish": {
