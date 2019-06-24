@@ -11,7 +11,7 @@ soit pas possible dans un «vrai» navigateur.
 1. Traduisez en français tout ou partie des textes visibles sur l'interface Web
 1. Lorsque vous sauvegardez (ce sur quoi vous n'avez pas de contrôle dans le katacoda), l'application se recharge automatiquement dans le serveur, et aussi dans le navigateur
 
-[isobuild]:https://blog.meteor.com/isobuild-why-meteor-created-a-new-package-system-fdc3bdeba202)
+[isobuild]:https://blog.meteor.com/isobuild-why-meteor-created-a-new-package-system-fdc3bdeba202
 
 # Et plus encore !
 
