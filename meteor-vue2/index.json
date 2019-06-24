@@ -22,6 +22,10 @@
       {
         "title": "Retirer Blaze de votre projet",
         "text": "03-elimine-blaze.md"
+      },
+      {
+        "title": "Composant «data-table»",
+        "text": "04-composant-data-table.md"
       }
     ]
   },
